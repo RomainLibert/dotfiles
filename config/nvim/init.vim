@@ -84,3 +84,8 @@ map <C-G> :terminal tig --max-count=1000<Cr>
 " Mapping ctrl + b to tig blame
 map <C-B> :terminal tig blame %<Cr>
 
+" Mapping useful functionalities
+map <C-T> :NERDTreeToggle<Cr>
+map <C-F> :grep -F '' **/*
+map <C-X> :bd<Cr>
+
